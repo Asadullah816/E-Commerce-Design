@@ -1,0 +1,272 @@
+@media(min-width:768px){
+    .brand-name h3{
+        padding-bottom: 12px;
+    }
+}
+
+@media(max-width:1280px){
+    .formargin{
+        padding-right: 15rem !important;
+    }
+}
+@media(max-width:1024px)
+{
+    .navbar1{}
+    .pro-img img{
+        height: 400px;
+    }
+    .cart{
+        right: 29px;
+    }
+    .formargin{
+        padding-right: 7rem !important;
+    }
+    /* ===================================== SIDEBAE ======================== */
+
+    .navbar1{
+        flex-direction: row-reverse;
+    }
+    .small-no{
+        display: none;
+    }
+    .left-nav{
+        display: none;
+    }
+    .toggle-btn span{
+        width: 5%;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+        top: 40px;
+        right: 24px;
+        opacity: 0.8;
+    }
+    .toggle-btn span::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        top: 12px;
+    }
+    .toggle-btn span::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        top: 24px;
+        transition: .3s;
+    }
+    .toggle-btn.open  span::after{
+        
+        transform: rotate(45deg) ;
+    }
+    .side-bar{
+        display:flex;
+        justify-content: flex-start;
+        position: fixed;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        left: -500px;
+        top: 0;
+        height: 100vh;
+        transition: .3s;
+        padding-left: 30px;
+    }
+    
+    .side-cross{
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        right: 0;
+        padding-top: 35px;
+        padding-right: 20px;
+        color: rgba(0, 0, 0, 0.593);
+    }
+    .open{
+        left: 0;
+        z-index: 3;
+    }
+
+
+    .aside-overlay{
+         display:flex;
+        justify-content: flex-start;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(34, 33, 33, 0.518);
+        left: -100%;
+        top: 0;
+        height: 100vh;
+        /* transition: .3s; */
+        z-index: -1;
+        
+    }
+    .open-over{
+        left: 0;
+        z-index: 2;
+    }
+
+
+
+
+
+    /* ========================================= */
+}
+
+@media(max-width:768px)
+{
+
+    .formargin{
+        padding-right: 150px !important;
+        
+    } 
+    
+    /* ===========================================SIDEBAR =================== */
+
+  
+
+
+
+
+
+
+
+    /* ============================================== */
+    .search-box input{
+        width: 500px;
+    }
+    
+    .hero-heading h1{
+        font-size: 45px;
+    }
+    .background{
+        height: 40vh;
+        background-size: 110%;
+    }
+    .pro-img img{
+        height: 300px;
+    }
+    .h-back-img{
+        height: 40vh;
+        background-size: 110%;
+    }
+    .h-para{
+        text-align: center;
+        padding: 0px;
+    }
+    .h-btn{
+        padding: 0px;
+    }
+    .feat-para{
+        text-align: center;
+    }
+    .feat-img img{
+        width: 485px;
+    }
+    .feat-name{
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+
+@media(max-width:425px)
+{
+    .toggle-btn span{
+        
+    }
+    .toggle-btn span::before{
+       top: 8px;
+    }
+    .toggle-btn span::after{
+        top: 16px;
+    }
+    .background{
+        height: 40vh !important;
+        background-size: 200% !important;
+    }
+    .search-box input{
+        width: 300px;
+    }
+    .hero-heading{
+        font-size: 35px;
+        width: 20rem;
+    }
+    .hero-heading h1{
+        font-size: 35px;
+        
+    }
+    .pro-img img{
+        height:400px;
+    }
+    .f-collection{
+        margin-top: 100px;
+    }
+    .f-last{
+        flex-direction: column;
+    }
+    .h-back-img{
+        height: 40vh;
+        background-size:250% !important;
+    }
+    .fc-pro-items{
+        margin-top: 50px;
+    }
+    .side-bar{
+        width: 70%;
+    }
+    .f-section{
+        padding-top: 30px !important;
+        padding: 8px;
+    }
+    .f-last{
+        width: 100%;
+        margin-left: -13px;
+    }
+}
+
+
+
+@media(max-width:375px)
+{
+    .background{
+        height: 57vh !important;
+        background-size: 185% !important;
+    }
+    .search-box input{
+        width: 225px;
+    }
+    .hero-heading{
+        width: 19rem;
+    }
+    .h-back-img{
+        height: 36vh;
+    }
+}
+
+
+
+@media(max-width:320px)
+{   
+    .background{
+        height: 40vh !important;
+        background-size: 260% !important;
+    }
+    .hero-heading{
+        width: 15rem;
+    }
+    .hero-heading h1{
+        font-size: 27px;
+    }
+    .h-back-img{
+        height: 35vh;
+        background-size:300%  !important;
+    }
+    .formargin{
+        padding-right: 110px !important;
+        
+    }   
+}
