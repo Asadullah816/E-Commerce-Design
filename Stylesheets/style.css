@@ -359,8 +359,8 @@ nav {
 }
 
 .pro-img img {
-    height: 510px;
-    width: 400;
+    height: 510px !important;
+    width: 400px !important;
 }
 
 .onsale {

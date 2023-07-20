@@ -24,7 +24,7 @@
 }
 
 .form-input {
-    width: 306px;
+    width: 306px !important;
 }
 
 .inputs-heading {
@@ -96,14 +96,22 @@ textarea.form-control {
     min-height: calc(15rem + 0.75rem + calc(var(--bs-border-width) * 2));
 }
 
+
+@media(max-width:1024px){
+    .form-input {
+        width: 100% !important;
+    }
+}
+
 @media(max-width:768px) {
     .for-padding {
         padding-top: 100px;
         padding-left: 15px;
     }
+    
 
     .form-input {
-        width: 335px;
+        width: 335px !important;
     }
 }
 

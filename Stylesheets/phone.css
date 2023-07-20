@@ -107,6 +107,10 @@
         left: 0;
         z-index: 2;
     }
+    .pro-img img{
+        width: 300px !important;
+        height: 400px !important;
+    }
 
 
 
@@ -121,7 +125,14 @@
     .formargin{
         padding-right: 150px !important;
         
-    } 
+    }
+    .pro-img img{
+        width: 230px !important;
+        height: 330px !important;
+    }
+    .fc-pro-name {
+        padding: 10px 15px;
+    }
     
     /* ===========================================SIDEBAR =================== */
 
@@ -167,6 +178,9 @@
     }
     .feat-name{
         margin-bottom: 30px;
+    }
+    .for-padding{
+        padding-left:10px !important ;
     }
     
 
@@ -220,11 +234,15 @@
     }
     .f-section{
         padding-top: 30px !important;
-        padding: 8px;
+        /* padding: 8px; */
     }
     .f-last{
         width: 100%;
         margin-left: -13px;
+    }
+    .pro-img img{
+        width: 425px !important;
+        height: 525px !important;
     }
 }
 
@@ -244,6 +262,11 @@
     }
     .h-back-img{
         height: 36vh;
+    }
+    .pro-img img{
+        width: 375px !important;
+        height: 475px !important;
+    
     }
 }
 
@@ -269,4 +292,9 @@
         padding-right: 110px !important;
         
     }   
+    .pro-img img{
+        width: 320px !important;
+        height: 420px !important;
+    
+    }
 }
